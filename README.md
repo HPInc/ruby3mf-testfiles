@@ -7,11 +7,11 @@ A collection of valid and invalid 3mf files for testing 3mf readers, writers, an
 
 ```
 cd spec/test_files/failing_cases
-unzip test_case_14.zip -d test_case_14
-rm test_case_14.zip
+unzip test_case_14.3mf -d test_case_14
+rm test_case_14.3mf
 # edit files within folders
 cd test_case_14
-zip -r ../test_case_14.zip *
+zip -r ../test_case_14.3mf *
 cd ..
 rm -rf test_case_14
 
